@@ -22,7 +22,8 @@ public class DrawingFrame extends JFrame
 			setContentPane(basePanel);
 			setSize(700,700);
 			setTitle("Drawing a Rectangle");
-			setVisible(false);
+			setVisible(true);
+			setResizable(false);
 		}
 	}
 
